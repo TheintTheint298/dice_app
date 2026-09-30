@@ -1,0 +1,27 @@
+name: dice_app
+description: Premium tabletop dice roller.
+publish_to: none
+version: 1.0.0+1
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.2.3
+  sensors_plus: ^6.0.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.14.1
+  flutter_native_splash: ^2.4.0
+flutter:
+  uses-material-design: true
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: assets/icon.png   # supply a 1024x1024 PNG
+flutter_native_splash:
+  color: "#0E1A2B"
+  color_dark: "#0E1A2B"
+  image: assets/icon.png
